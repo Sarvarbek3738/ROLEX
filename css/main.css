@@ -187,6 +187,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .section2 {
@@ -313,6 +314,7 @@ ul {
     gap: 40px;
     flex-wrap: wrap;
     margin: 0 auto;
+    
 }
 
 .icon {
@@ -708,4 +710,196 @@ body.temp .oxiri{
 }
 body.temp footer h6{
     color: #8C8C8C;
+}
+.img .imgs1{
+    display: block;
+}
+.img .imgs2{
+    display: none;
+}
+.madal{
+    display: none;
+}
+.madalOyna{
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    height:100vh;
+    position: fixed;
+    z-index: 99999;
+    text-align: center;
+    padding-top: 100px;
+}
+.madalOyna h1{
+    font-size: 24px;
+    padding-bottom: 35px;
+}
+.madalOyna h1:hover{
+    color: #FFB568;
+    cursor: pointer;
+}
+.madalOyna h2{
+    font-size: 24px;
+    padding-bottom: 35px;
+}
+.madalOyna h2:hover{
+    color: #FFB568;
+    cursor: pointer;
+}
+.madalOyna h3{
+    font-size: 24px;
+    padding-bottom: 35px;
+}
+.madalOyna h3:hover{
+    color: #FFB568;
+    cursor: pointer;
+}
+.madalOyna h4{
+    font-size: 24px;
+}
+.madalOyna h4:hover{
+    color: #FFB568;
+    cursor: pointer;
+}
+.madaloynalar{
+    position: relative;
+}
+.madaloynalar .chiqish{
+    position: absolute;
+    top: 26px;
+    right: 36px;
+    cursor: pointer;
+    /* z-index: 999999; */
+}
+body {
+    position: relative;
+}
+.madaloynalar {
+    position: absolute;
+    width: 100%;
+    top: -100%;
+    
+
+}
+
+.madaloynalar.active {
+    top: 0px;
+    z-index: 99999;
+}
+
+
+
+@media(max-width:480px){
+    .madal{
+        display: block;
+    }
+    .img .imgs1{
+        display: none;
+    }
+    .img .imgs2{
+        display: block;
+        width: 300px;
+
+    }
+    .link{
+        display: none;
+    }
+    .logo{
+        padding-left: 24px;
+        padding-bottom: 8px;
+    }
+    .IchtimoiTarmoqlar {
+        padding-left: 24px;
+        margin-bottom: 300px;
+    }
+    .HeroBox {
+        padding-top: 480px;
+        
+        /* padding-right: 24px; */
+        /* position: absolute; */
+        /* right: 24px; */
+    }
+    .section1 .section1box{
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .box2{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .box2-1 img{
+        width: 100%;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .box2-2 .chiziq2{
+        margin: 0 auto;
+    }
+    .box2-2 h3{
+        text-align: center;
+    }
+    .section3box{
+        width: 100%;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .box3{
+        width: 145px;
+    }
+    .box4{
+        flex-wrap: wrap;
+    }
+    .box4-2 img{
+        width: 100%;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .section5box{
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .box6{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    form{
+        flex-direction: column;
+        gap: 12px;
+        
+
+    }
+    .box6-2{
+        width: 100%;
+    }
+    .box6-2 button{
+        padding: 20px 126px;
+    }
+    .box6-1{
+        text-align: center;
+    }
+    .box6-1 h1{
+        font-size: 24px;
+    }
+    .box6-1 p{
+        font-size: 15px;
+    }
+    .footerBox{
+        flex-direction: column;
+        padding-right: 24px;
+        padding-left: 24px;
+        gap: 32px;
+    }
+
+
+
+    
+    
 }
