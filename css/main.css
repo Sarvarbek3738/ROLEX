@@ -12,13 +12,6 @@
     max-width: 1200px;
     margin: 0px auto;
 }
-/* header{
-    background-image: url(../imgs/Home\ img.png);
-    background-repeat: no-repeat;
-    background-size: 30%;
-    height: 100%;
-    background-position: right;
-} */
 
 nav .container {
     display: flex;
@@ -65,19 +58,23 @@ ul {
     align-items: center;
     position: relative;
 }
-.HeroBox{
+
+.HeroBox {
     padding-bottom: 187px;
 }
+
 .HeroBox h1 {
     font-size: 40px;
     font-weight: 700;
     padding-bottom: 16px;
     padding-top: 122px;
 }
-.IchtimoiTarmoqlar{
-    padding-top: 177px;
-    padding-right: 73px;
-    padding-bottom: 242px;
+
+.apple {
+    display: flex;
+    gap: 73px;
+    align-items: center;
+
 }
 
 .HeroBox p {
@@ -109,13 +106,14 @@ ul {
     transform: scale(1.2);
 }
 
-.img  {
+.img {
     padding-top: 100px;
     position: absolute;
     right: 0px;
     top: -180px;
 }
-.cin{
+
+.cin {
     position: absolute;
     right: 24px;
     top: -53px;
@@ -314,7 +312,7 @@ ul {
     gap: 40px;
     flex-wrap: wrap;
     margin: 0 auto;
-    
+
 }
 
 .icon {
@@ -577,249 +575,262 @@ footer h6 {
 }
 
 
-.box1{
+.box1 {
     position: relative;
 }
+
 .sale {
     position: absolute;
     top: 26px;
     left: 0px;
 }
-.moon{
-    display: block;
-}
-.quyosh{
-    display: none;
-}
-.logo2{
-    display: block;
-}
-.logo3{
-    display: none;
-}
-/* ================================================================== */
-body.temp{
-    background-color: #1F1F1F;
-}
-body.temp .moon{
-    display: none;
-}
-body.temp .quyosh{
-    display: block;
-}
-body.temp .logo2{
-    display: none;
-}
-body.temp .logo3{
+
+.moon {
     display: block;
 }
 
-body.temp .link a{
+.quyosh {
+    display: none;
+}
+
+.logo2 {
+    display: block;
+}
+
+.logo3 {
+    display: none;
+}
+
+/* ================================================================== */
+body.temp {
+    background-color: #1F1F1F;
+}
+
+body.temp .moon {
+    display: none;
+}
+
+body.temp .quyosh {
+    display: block;
+}
+
+body.temp .logo2 {
+    display: none;
+}
+
+body.temp .logo3 {
+    display: block;
+}
+
+body.temp .link a {
     color: white;
 }
+
 body.temp .link li a:hover {
     color: #FFB568;
 }
-body.temp .HeroBox h1{
+
+body.temp .HeroBox h1 {
     color: white;
 }
-body.temp .HeroBox p{
+
+body.temp .HeroBox p {
     color: #F2F2F2;
 }
-body.temp .section1 h1{
+
+body.temp .section1 h1 {
     color: #F2F2F2;
 }
-body.temp .section1 h3{
+
+body.temp .section1 h3 {
     color: #F2F2F2;
 }
-body.temp .box1{
+
+body.temp .box1 {
     background-color: #292929;
 }
-body.temp .box1{
+
+body.temp .box1 {
     box-shadow: 0px 0px 0px 0px;
 }
+
 body.temp .box1 button:hover {
     background-color: #3D3D3D;
 
 }
-body.temp .section2 h3{
+
+body.temp .section2 h3 {
     color: #F2F2F2;
 }
-body.temp .section2 h1{
+
+body.temp .section2 h1 {
     color: #F2F2F2;
 }
-body.temp .section2 p{
+
+body.temp .section2 p {
     color: #F2F2F2;
 }
-body.temp .section3 h3{
+
+body.temp .section3 h3 {
     color: #F2F2F2;
 }
-body.temp .section3 h1{
+
+body.temp .section3 h1 {
     color: #F2F2F2;
 }
-body.temp .section3 p{
+
+body.temp .section3 p {
     color: #F2F2F2;
 }
-body.temp .box3{
+
+body.temp .box3 {
     background-color: #292929;
     border: none;
 }
-body.temp .section4 p{
+
+body.temp .section4 p {
     color: #BFBFBF;
 }
+
 body.temp .section4 h5 {
     color: #F2F2F2;
 }
-body.temp .section4 h6{
+
+body.temp .section4 h6 {
     color: #F2F2F2;
 }
-body.temp .section5 h1{
+
+body.temp .section5 h1 {
     color: #F2F2F2;
 }
-body.temp .section5 h3{
+
+body.temp .section5 h3 {
     color: #F2F2F2;
 }
-body.temp .box5{
+
+body.temp .box5 {
     background-color: #292929;
 }
-body.temp .box5{
+
+body.temp .box5 {
     box-shadow: 0px 0px 0px 0px;
 }
+
 body.temp .box5 button:hover {
     background-color: #3D3D3D;
 
 }
+
 body.temp .box5:hover h3 {
-   color: #2E2E2E;
+    color: #2E2E2E;
 }
+
 body.temp .box5:hover {
-   background-color: #FFB568;
- }
-body.temp .footerBox h3{
+    background-color: #FFB568;
+}
+
+body.temp .footerBox h3 {
     color: #F2F2F2;
 }
-body.temp .footerBox p{
+
+body.temp .footerBox p {
     color: #BFBFBF;
 }
-body.temp .footerBox i{
+
+body.temp .footerBox i {
     color: #BFBFBF;
 }
-body.temp .oxiri{
+
+body.temp .oxiri {
     border: 1px solid #333333;
 
 }
-body.temp footer h6{
+
+body.temp footer h6 {
     color: #8C8C8C;
 }
-.img .imgs1{
+
+.img .imgs1 {
     display: block;
 }
-.img .imgs2{
+
+.img .imgs2 {
     display: none;
 }
-.madal{
-    display: none;
-}
-.madalOyna{
-    background-color: white;
-    width: 100%;
-    position: absolute;
-    height:100vh;
+
+.menu {
     position: fixed;
-    z-index: 99999;
-    text-align: center;
-    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    transition: all 0.3s ease;
+    z-index: 99;
 }
-.madalOyna h1{
-    font-size: 24px;
-    padding-bottom: 35px;
-}
-.madalOyna h1:hover{
+
+.menu h1:hover {
     color: #FFB568;
-    cursor: pointer;
 }
-.madalOyna h2{
-    font-size: 24px;
-    padding-bottom: 35px;
-}
-.madalOyna h2:hover{
-    color: #FFB568;
-    cursor: pointer;
-}
-.madalOyna h3{
-    font-size: 24px;
-    padding-bottom: 35px;
-}
-.madalOyna h3:hover{
-    color: #FFB568;
-    cursor: pointer;
-}
-.madalOyna h4{
-    font-size: 24px;
-}
-.madalOyna h4:hover{
-    color: #FFB568;
-    cursor: pointer;
-}
-.madaloynalar{
-    position: relative;
-}
-.madaloynalar .chiqish{
+
+#close-menu {
     position: absolute;
-    top: 26px;
-    right: 36px;
+    top: 21px;
+    right: 21px;
     cursor: pointer;
-    /* z-index: 999999; */
 }
+
+.menu.hidden {
+    display: none;
+}
+
+.apple {
+    display: flex;
+}
+
 body {
     position: relative;
 }
-.madaloynalar {
-    position: absolute;
-    width: 100%;
-    top: -100%;
-    
 
-}
-
-.madaloynalar.active {
-    top: 0px;
-    z-index: 99999;
+#toggle-menu {
+    display: none;
 }
 
 
 
-@media(max-width:480px){
-    .madal{
+@media(max-width:480px) {
+    #toggle-menu {
         display: block;
     }
-    .img .imgs1{
+
+    .img .imgs1 {
         display: none;
     }
-    .img .imgs2{
+
+    .img .imgs2 {
         display: block;
         width: 300px;
 
     }
-    .link{
+
+    .link {
         display: none;
     }
-    .logo{
+
+    .logo {
         padding-left: 24px;
         padding-bottom: 8px;
     }
+
     .IchtimoiTarmoqlar {
-        padding-left: 24px;
-        margin-bottom: 300px;
+        padding-right: 340px;
+        padding-top: 70px;
     }
-    .HeroBox {
-        padding-top: 480px;
-        
-        /* padding-right: 24px; */
-        /* position: absolute; */
-        /* right: 24px; */
-    }
-    .section1 .section1box{
+
+    .section1 .section1box {
         text-align: center;
         margin: 0 auto;
         display: flex;
@@ -827,38 +838,47 @@ body {
         flex-direction: column;
         gap: 40px;
     }
-    .box2{
+
+    .box2 {
         flex-wrap: wrap;
         flex-direction: column-reverse;
     }
-    .box2-1 img{
+
+    .box2-1 img {
         width: 100%;
         padding-right: 24px;
         padding-left: 24px;
     }
-    .box2-2 .chiziq2{
+
+    .box2-2 .chiziq2 {
         margin: 0 auto;
     }
-    .box2-2 h3{
+
+    .box2-2 h3 {
         text-align: center;
     }
-    .section3box{
+
+    .section3box {
         width: 100%;
         padding-right: 24px;
         padding-left: 24px;
     }
-    .box3{
+
+    .box3 {
         width: 145px;
     }
-    .box4{
+
+    .box4 {
         flex-wrap: wrap;
     }
-    .box4-2 img{
+
+    .box4-2 img {
         width: 100%;
         padding-right: 24px;
         padding-left: 24px;
     }
-    .section5box{
+
+    .section5box {
         text-align: center;
         margin: 0 auto;
         display: flex;
@@ -866,40 +886,53 @@ body {
         flex-direction: column;
         gap: 40px;
     }
-    .box6{
+
+    .box6 {
         flex-wrap: wrap;
         gap: 40px;
     }
-    form{
+
+    form {
         flex-direction: column;
         gap: 12px;
-        
+
 
     }
-    .box6-2{
+
+    .box6-2 {
         width: 100%;
     }
-    .box6-2 button{
+
+    .box6-2 button {
         padding: 20px 126px;
     }
-    .box6-1{
+
+    .box6-1 {
         text-align: center;
     }
-    .box6-1 h1{
+
+    .box6-1 h1 {
         font-size: 24px;
     }
-    .box6-1 p{
+
+    .box6-1 p {
         font-size: 15px;
     }
-    .footerBox{
+
+    .footerBox {
         flex-direction: column;
         padding-right: 24px;
         padding-left: 24px;
         gap: 32px;
     }
 
+    .apple {
+        flex-direction: column;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
 
 
-    
-    
+
+
 }
